@@ -5034,7 +5034,8 @@ form {
 }
 
 .block-main__button:hover,
-.block-main__button:active {
+.block-main__button:active,
+.block-main__button.active {
   background-color: var(--red);
   color: var(--white);
 
