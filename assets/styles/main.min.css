@@ -84,8 +84,9 @@
   line-height: 2;
 }
 
-.article-price__text span {
-  font-weight: 500;
+.article-price__price span {
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .article-price__price {
