@@ -5033,12 +5033,16 @@ form {
   transition: all 0.6s;
 }
 
-.block-main__button:hover,
-.block-main__button:active,
 .block-main__button.active {
   background-color: var(--red);
   color: var(--white);
+  pointer-events: none;
+}
 
+.block-main__button:hover,
+.block-main__button:active {
+  background-color: var(--red);
+  color: var(--white);
 }
 
 @media(max-width:767.98px) {
