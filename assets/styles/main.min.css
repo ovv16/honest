@@ -1,7 +1,5 @@
 .price {
-  padding-top: var(--sectionTopPadding);
-  margin-bottom: 100px;
-  padding: 0 var(--containerPadding);
+  padding: var(--sectionTopPadding) var(--containerPadding);
 }
 
 .price__title {
@@ -38,7 +36,9 @@
   box-shadow: 6px 6px 22px #d4d4d4,
     -6px -6px 22px #ffffff;
   text-align: center;
-  min-height: 531px;
+  min-height: 540px;
+  min-width: 250px;
+  width: 100%;
 }
 
 .article-price:hover .article-price__img img {
@@ -51,7 +51,7 @@
 
 .article-price__img {
   max-width: 100%;
-  height: 250px;
+  height:180px;
   margin-bottom: 30px;
   overflow: hidden;
   display: flex;
@@ -68,13 +68,12 @@
 .article-price__block {
   margin: 0 15px;
   overflow: hidden;
-  height: 150px;
-  margin-bottom: 30px;
+  min-height: 170px;
 }
 
 .article-price__title {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.2;
   transition: all 0.3s;
@@ -82,14 +81,16 @@
 
 .article-price__text {
   line-height: 2;
+  min-height: 30px;
 }
 
 .article-price__price span {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .article-price__price {
+  font-size: 18px;
   min-height: 21px;
   margin-bottom: 50px;
 }
@@ -5054,6 +5055,11 @@ form {
 
 @media(min-width:767.98px) {
   .main-screen-intro-btn-mob {
+    display: none;
+  }
+}
+@media(max-width:767.98px) {
+  .main-screen-intro-btn.pc {
     display: none;
   }
 }
