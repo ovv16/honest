@@ -4163,6 +4163,10 @@ form {
   margin-bottom: 30px;
 }
 
+.flexibility-item-work .flexibility-item-text {
+  width: 100%;
+}
+
 @media (max-width: 1366px) {
   .flexibility-item:first-child {
     margin-bottom: 50px;
